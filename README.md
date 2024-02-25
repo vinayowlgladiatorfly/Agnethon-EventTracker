@@ -6,6 +6,11 @@ npm i
 npm run dev
 you can see our frontend
 backend in django 
+you have to install python after
+pip install django 
+you have to install some modules
+rest_framework
+i will mention in requirement.txt
 cd hacka
 python manage.py runserver
 in these we have created some apis

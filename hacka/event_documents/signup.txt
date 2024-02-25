@@ -1,0 +1,27 @@
+students database
+->student_name
+->committees
+->Year
+->Event Participated
+->TUF_id
+
+
+committee database		
+->Committee Name
+->Committee Desc
+->Committee Head(this can only access)|TUF_id.
+->Committee Members|TUF_id.
+->Approved_Event
+->Pending_Event
+->Rejected_Event
+
+
+Events Database
+->committee(automatcially adds from committee database)
+->event_name
+->event_desc
+->event_time
+->venue
+->approval_status(default = Event under review)
+->supporting_documents(image upload field)
+

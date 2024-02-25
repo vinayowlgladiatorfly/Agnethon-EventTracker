@@ -10,7 +10,10 @@ you have to install python after
 pip install django 
 you have to install some modules
 rest_framework
-i will mention in requirement.txt
+django
+django-rest-framework
+django-cors-headers
+after this in terminal
 cd hacka
 python manage.py runserver
 in these we have created some apis
